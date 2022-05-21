@@ -1,0 +1,83 @@
+.profile-container {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.profile-container .profile-hero {
+    width: 100%;
+    height: 30vh;
+    background: rgb(127, 127, 227);
+    position: relative;
+}
+
+.profile-pic-container {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 40px;
+    bottom: -150px;
+    overflow: hidden;
+    
+}
+
+.profile-pic-container img {
+    width: 95%;
+
+
+}
+
+.profile-container .user-info {
+    margin-left: 360px;
+    color: #9d9d9d;
+    position: relative;
+}
+
+.user-info .edit-btn {
+    position: absolute;
+    right: 15px;
+}
+
+.user-info .edit-btn a{
+    text-decoration: none;
+    color: #eee;
+}
+
+
+
+.profile-container .posts-section {
+    color: #9d9d9d;
+    padding: 20px;
+}
+
+.profile-container .posts-section .posts{
+    display: flex;
+    gap: 20px;
+}
+.profile-container .posts-section .posts .post{
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #ff00ff;
+
+}
+.profile-container .posts-section .posts .post .post-image{
+    height: 200px;
+}
+
+.post .post-image img {
+    width: 100%;
+}
+
+.post .post-info p {
+    font-size: 18px;
+    text-align: center;
+    color: #444;
+}
+.post .post-info p a{
+    color: #444;
+}
+
+
+
